@@ -17,7 +17,7 @@ The main goal of this project is to get familiar with:
 - Rendering lists with JSX
 
 1. Clone the repository:
-git clone 
+git clone https://github.com/sailesh-codes/To-Do-List
 
 2. Navigate to the project folder:
 cd react-todo-list
