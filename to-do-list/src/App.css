@@ -1,11 +1,16 @@
+body{
+    background-color: hsl(0, 5%, 12%);
+}
+
 .to-do-list{
     font-family: sans-serif;
     text-align: center;
     margin-top: 100px;
 }
 
-.h1{
+h1{
     font-size: 4rem;
+    color: hsl(0, 0%, 96%);
 }
 
 button{
@@ -24,6 +29,7 @@ button{
 }
 .add-button{
     background-color: hsl(131, 67%, 54%);
+    margin-left: 10px;
 }
 
 .add-button:hover{
@@ -68,6 +74,22 @@ ol{
 li{
     font-size: 2rem;
     font-weight: bold;
+    margin-bottom: 10px;
+    background-color: hsl(0, 0%, 100%);
+    border: 3px solid hsl(0, 0%, 75%);
+    border-radius: 5px;
     padding: 15px;
     display: flex;
+    align-items:center;
 }
+
+.text{
+    flex:1;
+}
+
+.task-down-button,.task-up-button{
+    padding: 8px 10px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
